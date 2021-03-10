@@ -6,9 +6,11 @@ HTML Nav Header
 
 El proyecto contiene dos archivos:
 
-* nav_header_auth.html: Cabecera cuando el usuario está autenticado.
-* nav_header_no_auth.html: Cabecera cuando el usuario no está autenticado.
-* nav_header_html.html: Archivo con cabecera HTML para mostrar el resultado.
+* nav_header.html: Cabecera cuando el usuario está autenticado. 
+
+* nav_header_no_auth.html: Cabecera cuando el usuario NO está autenticado.
+
+*(Para el endpoint del API solo hay que enviar etiqueta NAV y lo que está dentro)*
 
 El HTMl se compone de un elemento 'nav' padre que contiene los siguientes 'div':
 
@@ -22,6 +24,7 @@ El HTMl se compone de un elemento 'nav' padre que contiene los siguientes 'div':
         - Desde Moodle se podrán añadir enlaces propios de esa aplicación:
             - Mis cursos
 *  navbar-usernav: Contenedor para el menú de usuario.
+    - Imagen del perfil: Avatar ?
     - Opciones:
         - Preferencias: Desde aquí se tendrá que ir a poder cambiar contraseña y otros datos.
         - Cerrar sesión: Cerrar sesión en todas las aplicaciones.
